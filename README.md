@@ -21,7 +21,14 @@ pip install yt-dlp PyQt6
 ```
 
 ## Installation
-Download the source code and run:
+1. Download the source code.  
+2. Download ffmpeg from [https://ffmpeg.org/download.html](https://ffmpeg.org/download.html).  
+3. Extract ffmpeg and copy the three files from its `bin` folder:  
+   - `ffmpeg`  
+   - `ffprobe`  
+   - `ffplay`  
+   into the same folder as `audio_downloader.py`.  
+4. Run the program:
 ```bash
 python audio_downloader.py
 ```
